@@ -291,6 +291,27 @@ ol {
   text-align: center;
 }
 
+.social-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-bottom: 30px;
+  gap: 34px;
+}
+
+.social-link {
+  display: block;
+  width: 44px;
+  height: 44px;
+  color: #afb1b8;
+}
+
+.social-icon {
+  color: currentColor;
+}
+
 /* Футера */
 
 .footer {
@@ -390,9 +411,9 @@ ol {
   padding-right: 24px;
   padding-bottom: 20px;
   padding-left: 24px;
-  border-right: 1px solid #EEE;
-  border-bottom: 1px solid #EEE;
-  border-left: 1px solid #EEE;
+  border-right: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  border-left: 1px solid #eee;
 }
 
 .projects-type-list-title {
